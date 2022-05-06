@@ -79,8 +79,8 @@ class War {
       attacker = this.saxonArmy;
       reciver = this.vikingArmy;
     } else {
-      attacker = this.saxonArmy;
-      reciver = this.vikingArmy;
+      attacker = this.vikingArmy;
+      reciver = this.saxonArmy;
     }
 
     let attackNumber = Math.floor(Math.random() * attacker.length);
